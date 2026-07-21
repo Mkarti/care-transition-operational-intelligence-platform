@@ -764,8 +764,6 @@ Machine Learning Engineer | Data Analyst | Business Intelligence Developer
 - Artificial Intelligence
 - Operational Analytics
 
----
-
 ## 🌐 Connect With Me
 
 📧 Email: kartikmishra1225@gmail.com
