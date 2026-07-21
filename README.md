@@ -463,9 +463,9 @@ Follow the steps below to set up and launch the Care Transition Operational Inte
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/Mkarti/Care-Transition-Operational-Intelligence-Platform.git
+git clone https://github.com/Mkarti/care-transition-operational-intelligence-platform.git
 
-cd Care-Transition-Operational-Intelligence-Platform
+cd care-transition-operational-intelligence-platform
 ```
 
 ---
@@ -768,13 +768,11 @@ Machine Learning Engineer | Data Analyst | Business Intelligence Developer
 
 ## 🌐 Connect With Me
 
-**LinkedIn**
+📧 Email: kartikmishra1225@gmail.com
 
-www.linkedin.com/in/kartikeya-mishra-13krs03
+GitHub: https://github.com/Mkarti
 
-**GitHub**
-
-https://github.com/Mkarti
+LinkedIn: www.linkedin.com/in/kartikeya-mishra-13krs03
 
 ---
 
