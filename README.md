@@ -178,6 +178,7 @@ The project was developed using a modular enterprise architecture with clearly s
 - Historical operational analytics
 - AI-assisted executive decision support
 
+---
 
 # 📂 Project Structure
 
