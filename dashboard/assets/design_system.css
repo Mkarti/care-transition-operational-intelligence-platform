@@ -1,0 +1,441 @@
+/* ==========================================================
+   CARE TRANSITION OPERATIONAL INTELLIGENCE PLATFORM
+   DESIGN SYSTEM
+========================================================== */
+
+
+
+/* ==========================================================
+   ROOT COLORS
+========================================================== */
+
+:root{
+
+    --primary:#2563EB;
+    --secondary:#e4edf5;
+
+    --success:#16A34A;
+    --warning:#F59E0B;
+    --danger:#DC2626;
+    --info:#0284C7;
+
+    --background:#46494d;
+    --card:#484040;
+
+    --text:#b6bfcb;
+    --subtext:#bbc9de;
+
+    --border:#E2E8F0;
+
+    --radius:18px;
+}
+
+
+/* ==========================================================
+   GLOBAL
+========================================================== */
+
+html,
+body{
+
+    font-family:'Inter',sans-serif;
+}
+
+
+/* ==========================================================
+   REMOVE STREAMLIT DEFAULTS
+========================================================== */
+
+#MainMenu{
+
+    visibility:hidden;
+}
+
+footer{
+
+    visibility:hidden;
+}
+
+
+/* ==========================================================
+   PAGE
+========================================================== */
+
+.block-container{
+    padding-top:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom:2rem;
+}
+
+
+/* ==========================================================
+   HEADINGS
+========================================================== */
+
+h1{
+
+    color:var(--secondary);
+
+    font-weight:800;
+}
+
+h2{
+
+    color:var(--secondary);
+
+    font-weight:700;
+}
+
+h3{
+
+    color:var(--secondary);
+
+    font-weight:700;
+}
+
+
+/* ==========================================================
+   SECTION TITLES
+========================================================== */
+
+.section-title{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-bottom:5px;
+
+    color:var(--secondary);
+}
+
+.section-subtitle{
+
+    color:var(--subtext);
+
+    font-size:15px;
+
+    margin-bottom:25px;
+}
+
+
+/* ==========================================================
+   DASHBOARD CARDS
+========================================================== */
+
+.dashboard-card{
+
+    background-color:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:22px;
+
+    margin-bottom:18px;
+
+    box-shadow:0 8px 20px rgba(15,23,42,.06);
+
+    transition:.25s ease;
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 18px 32px rgba(15,23,42,.12);
+}
+
+.dashboard-card h4{
+
+    margin:0;
+
+    padding:0;
+
+    font-size:20px;
+
+    color:var(--secondary);
+
+}
+
+.dashboard-card p{
+
+    margin-top:12px;
+
+    line-height:1.7;
+
+}
+
+.stMarkdown{
+
+    overflow-wrap: break-word;
+
+}
+
+
+/* ==========================================================
+   KPI VALUE
+========================================================== */
+
+.metric-value{
+
+    font-size:42px;
+
+    font-weight:800;
+
+    color:var(--primary);
+
+    margin-top:10px;
+}
+
+
+/* ==========================================================
+   KPI DESCRIPTION
+========================================================== */
+
+.metric-description{
+
+    color:var(--subtext);
+
+    margin-top:8px;
+
+    font-size:14px;
+}
+
+
+/* ==========================================================
+   KPI ICON
+========================================================== */
+
+.metric-icon{
+
+    font-size:28px;
+
+    margin-bottom:8px;
+}
+
+
+/* ==========================================================
+   ALERTS
+========================================================== */
+
+.alert-success{
+
+    border-left:6px solid var(--success);
+
+    background:#ECFDF5;
+
+    padding:16px;
+
+    border-radius:12px;
+
+    margin-bottom:15px;
+}
+
+.alert-warning{
+
+    border-left:6px solid var(--warning);
+
+    background:#FFFBEB;
+
+    padding:16px;
+
+    border-radius:12px;
+
+    margin-bottom:15px;
+}
+
+.alert-danger{
+
+    border-left:6px solid var(--danger);
+
+    background:#FEF2F2;
+
+    padding:16px;
+
+    border-radius:12px;
+
+    margin-bottom:15px;
+}
+
+
+/* ==========================================================
+   EXECUTIVE BRIEF
+========================================================== */
+
+.executive-brief{
+
+    background:#EFF6FF;
+
+    border-left:6px solid var(--primary);
+
+    padding:24px;
+
+    border-radius:14px;
+
+    margin-bottom:25px;
+
+    line-height:1.8;
+}
+
+
+/* ==========================================================
+   RECOMMENDATION CARD
+========================================================== */
+
+.recommendation-card{
+
+    background:#FFFFFF;
+
+    border-left:5px solid var(--primary);
+
+    border-radius:16px;
+
+    padding:20px;
+
+    margin-bottom:16px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.05);
+}
+
+
+/* ==========================================================
+   TABLES
+========================================================== */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    border:1px solid var(--border);
+}
+
+
+/* ==========================================================
+   SIDEBAR
+========================================================== */
+
+[data-testid="stSidebar"] {
+
+    background: #233a51;
+
+    border-right: 1px solid #E5E7EB;
+
+}
+
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.stButton>button{
+
+    border-radius:12px;
+
+    border:none;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-weight:600;
+
+    padding:.55rem 1.2rem;
+
+    transition:.25s;
+}
+
+.stButton>button:hover{
+
+    transform:translateY(-2px);
+
+    background:#1D4ED8;
+}
+
+
+/* ==========================================================
+   DOWNLOAD BUTTON
+========================================================== */
+
+.stDownloadButton>button{
+
+    border-radius:12px;
+
+    background:var(--success);
+
+    color:white;
+
+    border:none;
+
+    font-weight:600;
+}
+
+
+/* ==========================================================
+   METRICS
+========================================================== */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:16px;
+
+    padding:18px;
+
+    border:1px solid var(--border);
+
+    box-shadow:0 6px 16px rgba(0,0,0,.05);
+}
+
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#CBD5E1;
+
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#94A3B8;
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width:900px){
+
+.block-container{
+
+    padding-left:1rem;
+
+    padding-right:1rem;
+}
+
+.metric-value{
+
+    font-size:30px;
+}
+
+.section-title{
+
+    font-size:22px;
+}
+
+}
